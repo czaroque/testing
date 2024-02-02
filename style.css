@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body{
+    background-color: #CDB4DB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#rose{
+    width: 24vw;
+    position: absolute;
+    left: 1vw;
+    top: 5vw;
+    z-index: 1;
+}
+
+#rosie{
+    width: 65vw;
+    border: 0.5vw #FFC8DD ridge;
+    border-radius: 30px;
+    background-color: #FFAFCC;
+    padding: 0.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    position: absolute;
+    top:5vh;
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3vw;
+    font-style: italic;
+}
+
+p{
+    font-size: 1.5vw;
+    z-index: 2;
+}
+
+#signature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#snoopy{
+    width:8vw;
+}
